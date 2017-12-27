@@ -1,0 +1,1 @@
+#pragma once#include "GlobalDefines.h"#include <Printing.h>//	void		(*Print)(TPPrPort port,THPrint p);		// wird in Window-Aktion aufgerufen//	void		(*PrintDlg)(short type,DialogPtr d,short item); // Dialoge für Druckenvoid		Exit(void);

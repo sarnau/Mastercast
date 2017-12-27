@@ -1,0 +1,1 @@
+/*** *	zur Verwaltung der Preferences… ***/#pragma once#include <Resources.h>void		ReadPref(ResType resourceType, short resId, Ptr prefPtr, Size prefSize);void		WritePref(ResType resourceType, short resId, Ptr prefPtr, Size prefSize);void		ClosePref(void);

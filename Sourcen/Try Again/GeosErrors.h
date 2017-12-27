@@ -1,0 +1,1 @@
+#pragma once#include "GlobalDefines.h"Boolean	CheckOSError(OSErr macErr);

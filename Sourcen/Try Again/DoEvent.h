@@ -1,0 +1,1 @@
+#pragma once#include "GlobalDefines.h"#include "Utilities.h"#include <setjmp.h>extern EventRecord	gTheEvent;			// globaler Event-Recordextern Boolean		gQuitApplication;	// true, dann Programmendeextern jmp_buf		gJumpBuffer;		// LongJump to Event-LoopBoolean	GetEvent(short eventMask);void	DoEvent(void);void	EventLoop(void);void	DoIdleTasks(void);

@@ -1,0 +1,1 @@
+tell application "mastercast"	set modellId to 70000	set all to ""	set zaehler to 0	repeat while modellId is less than 71000		set result to find modellId		if result is not equal to {} then			set all to all & " ¥ " & result			set zaehler to zaehler + 1		end if		set modellId to modellId + 1	end repeatend tellall

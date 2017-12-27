@@ -1,0 +1,1 @@
+#pragma once#include "GlobalDefines.h"extern Boolean	FaxPrintActive;			// True, wenn ein Fax-Ausdruck#if DONGLEextern char	DongleAdr;#endifvoid		main(void);void		LoadHeadsheet(void);void		LoadDoc(FSSpecPtr f);

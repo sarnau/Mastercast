@@ -1,0 +1,1 @@
+/*** *	Sedcard ausdrucken ***/#pragma once#include "PrintBase.h"class PrintSedcard : PrintBase {	long		ModellId;	void			CenterDrawPict(short pict, Rect &r, Boolean draw);	virtual void	PrintPage(TPPrPort port, THPrint p);public:					PrintSedcard(long mid, Boolean first, Boolean &cancel);	static void		Enable(Boolean &enabled, short &markChar, Str255 &name);};

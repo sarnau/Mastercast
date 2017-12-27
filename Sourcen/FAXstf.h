@@ -1,0 +1,1 @@
+void			FaxStart(void);void			FaxStop(void);Boolean			FaxExist(void);OSErr			FaxDestination(Str255 FaxNummer, Str255 Telefon, Str255 Firma, Str255 Vorname, Str255 Name, Str255 Titel, Boolean Delete);

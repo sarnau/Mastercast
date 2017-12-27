@@ -1,0 +1,1 @@
+/*** * ***/const long cOpenSelektion = 1000;const long cOpenBrowser = 1001;const long cOpenHeadsheet = 1002;const long cOpenPLayout = 1003;const long cOpenwtPInfo = 1004;const long cOpenToolbar = 1005;const long cOpenNewCD = 2000;const long cFind = 2001;const long cPageSetup = 176;const long cPrint = 178;

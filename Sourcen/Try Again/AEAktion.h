@@ -1,0 +1,1 @@
+/*** *	ein paar Hilfsroutinen zu den AppleEvents ***/#pragma once#include "GlobalDefines.h"#include <AppleEvents.h>extern AEAddressDesc	gSelfAddress;		// A self-addressed address descriptor recordvoid			InitAppleEvents(void);Boolean			MissedAnyParameters(AppleEvent *message);
